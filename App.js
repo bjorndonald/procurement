@@ -11,7 +11,11 @@ function App () {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name='Index' component={Index} />
+        <Stack.Screen
+          options={{headerShown: false}}
+          name='Index'
+          component={Index}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   )

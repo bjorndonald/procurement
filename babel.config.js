@@ -15,7 +15,7 @@ module.exports = function (api) {
           styles: './styles',
           images: './images',
           utilities: './utilities',
-          services: './services',
+          styles: './styles',
         },
       },
     ],
